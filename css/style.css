@@ -34,7 +34,6 @@ footer {
 
 nav {
     float: left;
-    max-width: 160px;
     margin: 0;
     padding: 1em;
 }
@@ -48,6 +47,18 @@ nav ul a {
     text-decoration: none;
 }
 
+nav li a {
+    display:inline;
+    color: blue;
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
 article {
     margin-left: 170px;
     border-left: 1px solid gray;
